@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+// import Button from "@/components/Button";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -120,7 +120,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="https://drive.google.com/file/d/173rS3D6AtjZ2oytIzfXSqkLZaxS6AfPu/view?usp=drivesdk" />
+            {/* <Button text="Resume" link="https://drive.google.com/file/d/173rS3D6AtjZ2oytIzfXSqkLZaxS6AfPu/view?usp=drivesdk" /> */}
           </motion.div>
         </div>
       </div>

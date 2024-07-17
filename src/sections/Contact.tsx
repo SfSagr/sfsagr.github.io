@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { FiGithub, FiLinkedin,} from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
-import { FaRegNewspaper } from "react-icons/fa6";
 
 function Contact() {
   const socialLinks = [
@@ -24,11 +23,7 @@ function Contact() {
       icon: <IoIosMail />,
       link: "mailto:sagerkumar200018@gmail.com",
     },
-    {
-      name: "cv",
-      icon: <FaRegNewspaper />,
-      link: "https://drive.google.com/file/d/173rS3D6AtjZ2oytIzfXSqkLZaxS6AfPu/view?usp=drivesdk",
-    }
+
   ];
   return (
     <motion.div
