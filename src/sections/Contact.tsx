@@ -47,18 +47,20 @@ function Contact() {
         {/* <Button link="mailto:sagerkumar200018@gmail.com" text="Say hi👋" /> */}
       </div>
       <ul className="link-of-social">
-        {socialLinks.map(({ name, icon, link }) => (
-          <li key={name} title={name} className="social-icons-list-items">
-            <Link
-              href={link}
-              className="social-icons-list-item-link"
-              target="_blank"
-            >
-              {icon}
-            </Link>
-          </li>
-        ))}
-      </ul>
+  {socialLinks.map(({ name, icon, link }) => (
+    <li key={name} title={name} className="social-icons-list-items">
+      <Link
+        href={link}
+        className="social-icons-list-item-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {icon}
+      </Link>
+    </li>
+  ))}
+</ul>
+
     </motion.div>
   );
 }

@@ -29,12 +29,12 @@ body.loaded {
 
   .preloader-heading {
     .load-text {
-      font-size: 30px;
-      font-weight: 400;
+      font-family:'Courier New', Courier, monospace;
+      font-size: 50px;
+      font-weight: 600;
       letter-spacing: 15px;
       text-transform: uppercase;
       z-index: 20;
-      font-family: var(--fira-code);
 
       span {
         animation: loading 1s infinite alternate;

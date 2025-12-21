@@ -25,13 +25,11 @@ const Loader: React.FC<LoaderProps> = ({ isLoading, setIsLoading }) => {
       </svg>
       <div className="preloader-heading">
         <div className="load-text">
-          <span>L</span>
-          <span>o</span>
-          <span>a</span>
-          <span>d</span>
-          <span>i</span>
-          <span>n</span>
-          <span>g</span>
+          <span>S</span>
+          <span>A</span>
+          <span>G</span>
+          <span>A</span>
+          <span>R</span>
         </div>
       </div>
     </div>

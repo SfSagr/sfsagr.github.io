@@ -17,8 +17,8 @@ function Experience() {
       name: "yugazephyr",
       role: "Frontend Developer",
       url: "https://www.yugazephyr.com/",
-      start: "Sep 2023",
-      end: "Feb 2024",
+      start: "Nov 2023",
+      end: "Jul 2024",
       shortDescription: [
         "Project : Unik Photography web app",
         "Throughout my work, I've utilized various Frontend technologies, including React, Redux, Javascript, Tailwind, among others.",
