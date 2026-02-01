@@ -14,6 +14,18 @@ function Experience() {
 
   const expereinces = [
     {
+      name: "Eptura",
+      role: "Software Engineer",
+      url: "https://www.linkedin.com/company/codian-biztech/",
+      start: "Jan 2026",
+      end: "Present",
+      shortDescription: [
+        "",
+        "",
+        "",
+      ],
+    },
+    {
       name: "yugazephyr",
       role: "Frontend Developer",
       url: "https://www.yugazephyr.com/",
@@ -39,6 +51,7 @@ function Experience() {
         "Impact: created an online presence for client and also optimized it for fast rendering, leading to increase in sales.",
       ],
     },
+    
     
   ];
   return (
