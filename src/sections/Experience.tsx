@@ -16,7 +16,7 @@ function Experience() {
     {
       name: "Eptura",
       role: "Software Engineer",
-      url: "https://www.linkedin.com/company/codian-biztech/",
+      url: "https://eptura.com/",
       start: "Jan 2026",
       end: "Present",
       shortDescription: [
